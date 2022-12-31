@@ -3,7 +3,7 @@ ARG version=latest
 
 FROM ${base_image}:${version}
 
-ARG chainid=columbus-5
+ARG chainid=rebel-2
 ARG enable_lcd=true
 ARG enable_pruning=true
 ARG enable_unsafe_cors=false

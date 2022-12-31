@@ -4,7 +4,7 @@ services:
    core:     
      image: terraclassic.terrad-binary
      build: 
-      context: ../
+      context: ../docker
       dockerfile: Dockerfile.terraclassic.terrad-binary
       labels:
         - "terraclassic.terrad-binary.description=Contains the terrad binary"
